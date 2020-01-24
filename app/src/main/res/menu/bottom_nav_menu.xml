@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/beranda"/>
+
+    <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/cuaca"
+            android:title="@string/cuaca_ini"/>
+
+    <item
+            android:id="@+id/nav_tomorrow"
+            android:icon="@drawable/cuaca2"
+            android:title="@string/cuaca_esok"/>
+
+    <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/cuaca3"
+            android:title="@string/infografis"/>
+
+</menu>

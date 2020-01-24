@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".infografis.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+            android:background="@color/colorPrimaryDark"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  tools:ignore="UselessParent">
+        <ProgressBar
+                android:id="@+id/prog"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="-27dp"
+                android:layout_marginBottom="-25dp"
+                android:indeterminate="true"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        />
+        <android.support.v7.widget.RecyclerView
+                android:layout_below="@id/prog"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/rc_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_info"
+        >
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+</FrameLayout>
