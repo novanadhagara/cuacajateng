@@ -47,9 +47,9 @@ class HomeFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_home, container, false)
-        carouselView = view.findViewById(R.id.carouselView)
+       /* carouselView = view.findViewById(R.id.carouselView)
         carouselView.pageCount = images.count()
-        carouselView.setImageListener(imageListener)
+        carouselView.setImageListener(imageListener)*/
         judul = view.findViewById(R.id.judul_dini)
         gbr  = view.findViewById(R.id.img_dini)
         ket = view.findViewById(R.id.ket_dini)
